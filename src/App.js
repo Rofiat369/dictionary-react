@@ -15,8 +15,11 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            This page was created by Rofiat Olusanya
-        </small>
+            This page was created by Rofiat Olusanya and is hosted on {""}
+            <a href="https://github.com/Rofiat369/weather-react">
+              GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
