@@ -8,6 +8,7 @@
 .Meaning .Example {
   color: #78757a;
   font-style: italic;
+  margin-top: 5px;
 }
 
 .Meaning .Definition {
