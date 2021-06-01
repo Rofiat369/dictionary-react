@@ -1,13 +1,15 @@
 .Phonetic {
   margin: 20px 0;
-}
-
-.Phonetic a {
-  text-decoration: none;
-  margin-right: 10px;
+  position: absolute;
+  right: 0;
 }
 
 .Phonetic .Text {
   opacity: 0.7;
   font-weight: bold;
+  font-size: 20px;
+}
+
+.fa-play-circle {
+  font-size: 20px;
 }

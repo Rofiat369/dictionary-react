@@ -3,14 +3,6 @@
   font-weight: bold;
 }
 
-.Dictionary section {
-  background-color: azure;
-  padding: 30px;
-  border-radius: 6px;
-
-  margin: 20px 0;
-}
-
 .Dictionary input {
   height: 50px;
   font-size: 1.2em;
@@ -19,6 +11,8 @@
   padding-left: 10px;
   border: none;
   border-radius: 15px;
+  margin-top: 20px;
+  margin-right: 5px;
   position: absolute;
   top: 0;
   right: 0;
@@ -26,21 +20,4 @@
 
 .Dictionary input:hover {
   box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
-}
-
-.icon {
-  height: 60px;
-  width: 60px;
-  background-color: red;
-  border-radius: 50%;
-  font-size: 1.8em;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  transform: translateX(-50px);
-  padding-top: 5px;
-}
-
-.icon span {
-  transform: rotate(-45deg);
 }

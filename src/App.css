@@ -5,9 +5,13 @@
   height: 500px;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: transparent;
+  border-radius: 15px;
 }
 
-.card-footer {
+footer {
   text-align: center;
-  margin: 30px 0;
+  margin: 20px 0;
+  color: black;
+  font-size: 18px;
 }

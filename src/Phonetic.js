@@ -1,12 +1,19 @@
 import React from "react";
 import "./Phonetic.css";
-import ReactAudioPlayer from 'react-audio-player';
 
 
 export default function Phonetic(props) {
+
+    const audio = new Audio(props.phonetic.audio)
+
+    function playSound() {
+        audio.play();
+    }
+
     return (
         <div className="Phonetic">
-            <ReactAudioPlayer src={props.phonetic.audio} controls preload="metadata" />
+
+            <i className="far fa-play-circle" onClick={playSound} ></i>
 
             <span className="Text">
                 {props.phonetic.text}</span>
